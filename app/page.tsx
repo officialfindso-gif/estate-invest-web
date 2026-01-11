@@ -473,21 +473,6 @@ export default async function Page() {
             </div>
           </div>
         </section>
-
-        {/* FOOTER */}
-        <footer className="py-10 text-xs text-[#6e6b62] border-t border-[#37342a]">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <div>© {new Date().getFullYear()} frunze. Все права защищены.</div>
-            <div className="flex gap-6">
-              <Link href="/blog" className="hover:text-white transition-colors">
-                Материалы
-              </Link>
-              <Link href="/cases" className="hover:text-white transition-colors">
-                Кейсы
-              </Link>
-            </div>
-          </div>
-        </footer>
       </div>
     </main>
   );

@@ -102,7 +102,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-[#333] pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400 text-sm">© 2024 Invest Platform. Все права защищены.</p>
+          <p className="text-gray-400 text-sm">© 2026 Invest Platform. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
               Политика конфиденциальности
