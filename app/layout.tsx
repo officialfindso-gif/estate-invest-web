@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     locale: "ru_RU",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/api/og",
         width: 1200,
         height: 630,
         alt: "Вадим Фрунзе — Инвестиции в недвижимость",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Вадим Фрунзе — Инвестиции в недвижимость и займы под залог",
     description: "Профессиональные стратегии инвестирования в недвижимость, займы под залог и управление капиталом.",
-    images: ["/og-image.svg"],
+    images: ["/api/og"],
   },
 };
 
