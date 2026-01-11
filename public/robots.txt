@@ -1,0 +1,10 @@
+# robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://frunze.ru/sitemap.xml
+
+# Disallow admin/private areas (if any)
+Disallow: /api/
+Disallow: /studio/
