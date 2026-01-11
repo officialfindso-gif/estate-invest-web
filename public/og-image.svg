@@ -1,0 +1,41 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <!-- Gold accent gradient -->
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#goldGradient)"/>
+  
+  <!-- Gold line accent -->
+  <rect x="80" y="0" width="4" height="630" fill="#d4af37"/>
+  
+  <!-- Title -->
+  <text x="150" y="250" font-family="Arial, sans-serif" font-size="72" font-weight="900" fill="#ffffff">
+    Вадим Фрунзе
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="42" font-weight="600" fill="#d4af37">
+    Инвестиции в недвижимость
+  </text>
+  
+  <!-- Description -->
+  <text x="150" y="400" font-family="Arial, sans-serif" font-size="28" fill="#b0b0b0">
+    Профессиональные стратегии и реальные кейсы
+  </text>
+  
+  <!-- Bottom line -->
+  <rect x="150" y="500" width="200" height="3" fill="#d4af37"/>
+  
+  <!-- Icon -->
+  <circle cx="1050" cy="315" r="120" fill="#1a1a1a" stroke="#d4af37" stroke-width="3"/>
+  <text x="1050" y="340" font-family="Arial, sans-serif" font-size="80" fill="#d4af37" text-anchor="middle">
+    ₽
+  </text>
+</svg>
